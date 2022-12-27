@@ -2,12 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const header = () => {
+const Header = () => {
   return (
 
       <header>
         <div>
-          <div className='topNav'>
+          <div className="topNav">
               <Image alt="jet medical logo" src={'/images/logo_jet.png'} width={100} height={50} />
               
               <nav>
@@ -27,4 +27,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header

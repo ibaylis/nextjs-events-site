@@ -7,7 +7,6 @@ const SingleEvent = ({data}) => {
 
   const inputEmail = useRef();
   const router = useRouter();
-
   const [message, setMessage] = useState('');
 
   const onSubmit = async (e) => {
